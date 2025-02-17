@@ -6,14 +6,14 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: playground
+      app: jdamoise-playground
   template:
     metadata:
       labels:
-        app: playground
+        app: jdamoise-playground
     spec:
       containers:
-      - name: playground
+      - name: jdamoise-playground
         image: wil42/playground:v1
         ports:
         - containerPort: 8888
