@@ -10,10 +10,10 @@ spec:
   template:
     metadata:
       labels:
-        app: jdamoise-playground
+        app: playground
     spec:
       containers:
-      - name: jdamoise-playground
+      - name: playground
         image: wil42/playground:v1
         ports:
         - containerPort: 8888
