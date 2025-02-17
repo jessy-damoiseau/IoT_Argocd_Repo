@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: jdamoise-playground
 spec:
-  replicas: 25
+  replicas: 1
   selector:
     matchLabels:
       app: playground
